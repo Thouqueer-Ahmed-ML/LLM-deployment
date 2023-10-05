@@ -22,7 +22,7 @@ MODEL_ID = "NousResearch/Llama-2-13b-chat-hf"
 class LLMDeployment:
     """
     Class representing a Ray actor.
-    It consists of a asynchronous __call__ method which gets triggered on API requests
+    It consists of an asynchronous __call__ method which gets triggered on API requests
     It generates a textual response for a given input-string/prompt
     It provides a Question & Answer kind of interface rather than a chat interface but it can easily modified to support conversations
     """

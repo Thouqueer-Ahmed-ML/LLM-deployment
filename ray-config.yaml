@@ -12,9 +12,9 @@ applications:
   runtime_env: {}
   deployments:
   - name: EmbeddingDeployment
-- name: llm_app
-  route_prefix: /llm # http://YOUR-VM-IP:8090/llm/ is the endpoint for LLM model
-  import_path: llm:deployment
+- name: re_rank_app
+  route_prefix: /re-rank # http://YOUR-VM-IP:8090/re-rank/ is the endpoint for ReRank model
+  import_path: re_ranker:deployment
   runtime_env: {}
   deployments:
-  - name: LLMDeployment
+  - name: ReRankerDeployment

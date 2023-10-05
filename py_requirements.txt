@@ -1,8 +1,7 @@
 setuptools
+packaging
 langchain==0.0.283
-pip==23.0.1
-torch==1.13.1
-faiss-cpu==1.7.4
+torch
 ray[air]
 accelerate>=0.16.0
 bitsandbytes==0.41.1
@@ -11,3 +10,4 @@ requests==2.31.0
 transformers>=4.26.0
 scipy==1.11.2
 sentencepiece
+ochat

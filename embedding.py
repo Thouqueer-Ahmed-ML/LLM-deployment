@@ -22,7 +22,7 @@ MODEL_ID = "BAAI/bge-large-zh"
 class EmbeddingDeployment:
     """
     Class representing a Ray actor.
-    It consists of a asynchronous __call__ method which gets triggered on API requests
+    It consists of an asynchronous __call__ method which gets triggered on API requests
     It generates embeddings for a given input-string/prompt
     """
 
